@@ -46,5 +46,7 @@ Number x, y(3), z;
 Number *n = new Number;
  n->d = 675;
  n->display1();
+
+ 
     return 0;
 }

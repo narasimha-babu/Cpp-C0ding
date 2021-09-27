@@ -1,1 +1,1 @@
-a
+num(int n) :a{n}

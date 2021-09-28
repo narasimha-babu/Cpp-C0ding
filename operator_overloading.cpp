@@ -14,7 +14,7 @@ public:
     }
     void display();
 
-   complex add(complex x)
+   complex operator-(complex x)
     {
         complex temp;
         temp.real = real + x.real;
@@ -38,7 +38,7 @@ int main()
     
     // c3 = c1 + c2;
 
-    c3 = c1.add(c2);
+    c3 = c1 - c2;
 
     // c3 = add(c2);
 

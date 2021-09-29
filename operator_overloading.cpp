@@ -13,8 +13,8 @@ public:
         imag = r;
     }
     void display();
-
-   complex operator-(complex x)
+//    complex operator-(complex x);
+   complex operator+(complex x)
     {
         complex temp;
         temp.real = real + x.real;
@@ -23,6 +23,15 @@ public:
         return temp;
     }
 };
+
+// complex complex :: operator-(complex x){
+//     complex temp;
+//         temp.real = real + x.real;
+//         temp.imag = imag + x.imag;
+      
+//         return temp;
+//     }
+   //operator+ and operator- do the same thing
 
 void complex ::display()
 {

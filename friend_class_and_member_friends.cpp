@@ -29,6 +29,7 @@ class B{
 
 void add( A o1 , B o2){
     cout<<"Adding a from Class A and b from Class B gives us :"<<o1.a + o2.b<<endl;
+    cout<<b;
 }
 
 int main()

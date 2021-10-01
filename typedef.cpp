@@ -2,17 +2,13 @@
 
 using namespace std;
 
-typedef struct jj{
-int name;
-}he;
+typedef int marks;
 
 int main(){
 
-he obj;
+marks m1=0,m2=80,m3=88;
 
-cin>>obj.name;
-
-cout<<obj.name<<endl;;
-
+cin >> m1;
+cout<<m1<<endl;
 return 0;
 }

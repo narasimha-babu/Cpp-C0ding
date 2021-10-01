@@ -2,29 +2,21 @@
 
 using namespace std;
 
-enum usage{
+enum isage{mo=9,tu=-1,we,th,fr=9,sa};
 
-black ,
-
-brown = -1 ,
-
-green = 5 ,
-
-red = 5,
-
-yellow
-
-};
-
+enum usage{mon=9,tue=-1,wed,thu,fri=9,sat,sun};
 int main(){
 
+isage i;
+i = mo;
+int x = 9;
+usage u;
+u = mon;
+// if(u == x){
+//     cout<<"it uses int for comparison"<<endl;
+// }
 
-
-
-
-usage m1;
-
-cout<<yellow;
+cout<<typeid(u).name()<<endl;
 
 return 0;
 

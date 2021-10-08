@@ -15,5 +15,6 @@ public:
 int main(){
 derived d;
 d.display();
+d.base::display();
 return 0;
 }

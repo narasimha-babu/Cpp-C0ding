@@ -21,7 +21,7 @@ class child : public parent{
 
 int main(){
 
-child ch(10 , 30);
+child ch(10,46);
 
 return 0;
 }

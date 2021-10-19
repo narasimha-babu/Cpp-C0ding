@@ -20,7 +20,7 @@ class square:public shape{
 };
 
 
-int main(){
+int main() {
 
 shape *ptr = new rectangle();
 ptr->show();

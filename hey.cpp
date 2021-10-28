@@ -7,5 +7,5 @@ int main(){
 
 	cin>>n;
 
-	cout<<n;
+	cout<<n<<endl;
 }	 
